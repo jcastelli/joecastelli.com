@@ -1,0 +1,40 @@
+$orange: #FF691F;
+$orange-hover: lighten($orange, 6%);
+
+body {
+	background-color: #333;
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+}
+
+.pic {
+
+	margin-top: 10vw;
+
+	img {
+		max-width: 200px;
+    border-radius: 100px;
+	}
+}
+
+h1 {
+	color: $orange;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+p {
+	a:link, a:active, a:visited {
+		color: $orange;
+	}
+
+	a:hover {
+		color: $orange-hover;
+		text-decoration: none;
+	}
+
+	&.social a i {
+		font-size: 50px;
+		line-height: 80px;
+		margin-right: 10px;
+	}
+}
